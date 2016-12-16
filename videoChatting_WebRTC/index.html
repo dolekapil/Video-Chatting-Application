@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"></meta>
+		<link rel="stylesheet" type="text/css" href="css/home.css" />
+		<title> Video Chatting application </title>
+	</head>
+	<body>
+		<h1 class= "titleBar">
+			<div class="title">Video Chatting Application</div>
+		</h1>
+		<div class = "content">
+			<label class = "myLabel"> My ID </label>
+			<textarea id = "myTextareaID"> </textarea>
+		</div>
+		<div class = "content">
+			<label class = "myLabel"> Enter Other Person's ID </label>
+			<textarea id = "otherTextareaID"> </textarea>
+		</div>
+		<div class = "content">
+			<button id="connectButton" class = "button">Connect</button> 
+		</div>
+		<div class = "chatContent">
+			<label class = "myLabel"> Type Message To Send: </label>
+			<textarea id = "messageToSend"> </textarea>			
+		</div>
+		<div class = "chatContent">
+			<button id="sendMessageButton" class = "button">Send Message</button>
+		</div>
+		<div class = "chatContent" id="replyDiv">
+			<h2><label class = "myLabel"> Chat History: </label></h2>
+			<h2><pre class = "textColor" id= "replyLabel"></pre></h2>
+		</div>
+		<div class = "chatContent">
+			<button id="startVideoChatButton" class = "button">Start Video Chat</button>
+		</div>
+		<script src ="bundle.js" charset="utf-8"> </script>
+	</body>
+</html>

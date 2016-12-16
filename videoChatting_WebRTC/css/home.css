@@ -1,0 +1,98 @@
+
+.titleBar {
+	width: 100%;
+	background: #F36E21;
+	height: 50px;
+}
+
+.title {
+	text-align:center;
+	background: #F36E21;
+	color: white;
+	font-weight: bold;
+	font-family: "Times New Roman", Times, serif;
+	padding-top: 10px;
+}
+
+.content {
+	margin: auto;
+    width: 50%;
+	padding-left: 100px;
+	padding-bottom:20px;
+}
+
+.myLabel {
+	vertical-align: top;
+	color: #ccc;
+	font-size: 20px;
+}
+
+body {
+    background-color: black;
+    background-attachment:fixed;
+    font-size:12px;
+    height:100%;
+    margin:0px;
+    padding:0px;
+    width:100%;
+}
+
+textarea {
+  font-size: 22px;
+  width: 99%;
+  border: 3px solid #1ab188;
+  padding: 5px 0px;
+  background: none;
+  background-image: none;
+  display: block;
+  color: #ffffff;
+  border-radius: 0;
+  height: 100%;
+}
+
+.button {
+  border: 0;
+  padding: 15px 0;
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  background: #1ab188;
+  color: #ffffff;
+  position: relative;
+}
+
+.button:hover, .button:focus {
+  background: #179b77;
+}
+
+.chatContent {
+	margin: auto;
+    width: 50%;
+	padding-left: 100px;
+	padding-bottom:20px;
+	display: none;
+}
+
+#connectButton {
+  padding-left: 290px;
+  padding-right: 290px;
+}
+
+#sendMessageButton {
+  padding-left: 230px;
+  padding-right: 230px;
+}
+
+#startVideoChatButton {
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+#replyDiv.chatContent {
+  padding-bottom: 5%;
+}
+
+.textColor {
+  color: #ccc;
+}

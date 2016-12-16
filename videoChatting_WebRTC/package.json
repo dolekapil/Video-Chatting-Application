@@ -1,0 +1,18 @@
+{
+  "name": "video-chat",
+  "version": "1.0.0",
+  "description": "This is video chatting application.",
+  "main": "home.js",
+  "scripts": {
+    "start": "budo home.js:bundle.js"
+  },
+  "author": "Kapil and Soni",
+  "license": "ISC",
+  "devDependencies": {
+    "budo": "^9.2.2",
+    "watchify": "^3.7.0"
+  },
+  "dependencies": {
+    "simple-peer": "^6.1.0"
+  }
+}
